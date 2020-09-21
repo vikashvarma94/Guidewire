@@ -3,6 +3,7 @@ package GW.Guidewire.Testcases;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -36,7 +37,12 @@ public class Tc3_CreateNewperson extends baseclass {
 		 NewPerson.Firstname.sendKeys(first);
 		 NewPerson.Lastname.sendKeys(last);
 		 NewPerson.Taxid.sendKeys(Taxid);
-		 NewPerson.Update.click();
+		 NewPerson.Country.clear();
+		 NewPerson.Country.sendKeys("Canada");
+		 NewPerson.Country.click();
+		 NewPerson.Address1.sendKeys("test");
+		
+		// NewPerson.Update.click();
 		 
 		 Assert.assertEquals(driver.findElement(By.className("infobar_elem_val")).getText(), first+" "+last);
   }

@@ -14,6 +14,10 @@ public class NewPerson {
 		public static WebElement Lastname;
 		@FindBy(name="NewContact:ABContactDetailScreen:ContactBasicsDV:TaxID")
 		public static WebElement Taxid;
+		@FindBy(id="NewContact:ABContactDetailScreen:ContactBasicsDV:PrimaryAddressInputSet:AddressOwnerInputSet:globalAddressContainer:GlobalAddressInputSet:Country-inputEl")
+		public static WebElement Country;
+		@FindBy(id="NewContact:ABContactDetailScreen:ContactBasicsDV:PrimaryAddressInputSet:AddressOwnerInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1-inputEl")
+		public static WebElement Address1;
 		
 		@FindBy(id="NewContact:ABContactDetailScreen:ContactBasicsDV_tb:Update-btnInnerEl")
 		public static WebElement Update;

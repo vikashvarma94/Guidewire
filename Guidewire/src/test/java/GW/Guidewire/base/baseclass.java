@@ -33,22 +33,20 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import GW.Guidewire.config.Propertiesfile;
+
 
 
 public class baseclass {
 	public static WebDriver driver;
 	public static ExtentReports report;
 	public static ExtentTest test;
+	public static String browsername = null;
 
 	public String id="1";	
 	public Logger logger;
 	
-	@BeforeClass
-	public void setUp() {
-		logger=Logger.getLogger("EmployeesRestAPI");
-		PropertyConfigurator.configure("log4j.properties");
-		logger.setLevel(Level.DEBUG);
-				}
+	
 
 	@BeforeSuite
 	  public void suite() {  
@@ -56,20 +54,27 @@ public class baseclass {
 		    report = new ExtentReports(); 
 		    report.attachReporter(reporter);
 		    }
-
+	@BeforeClass
+	public void setUp() {
+		logger=Logger.getLogger("EmployeesRestAPI");
+		PropertyConfigurator.configure("log4j.properties");
+		logger.setLevel(Level.DEBUG);
+				}
   @BeforeMethod
-  public void setup() {
-		String browser = " ";
+  public void setup() throws IOException {
+	  Propertiesfile.getproperties();
+	  System.out.println(browsername);
+	  
 		
-		if(browser.equalsIgnoreCase("Chrome")) {
+		if(browsername.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();	}
 		  
-		else if(browser.equalsIgnoreCase("IE")) {
+		else if(browsername.equalsIgnoreCase("IE")) {
 			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\src\\drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();}
 		
-		else if(browser.equalsIgnoreCase("Unit")) {
+		else if(browsername.equalsIgnoreCase("Unit")) {
 			driver = new HtmlUnitDriver();}
 			  
 		else {
@@ -90,6 +95,7 @@ public void endtest(ITestResult result) throws IOException {
 	}
 	driver.close();
 	report.flush();
+	Propertiesfile.setproperties();
 	}
 
 
