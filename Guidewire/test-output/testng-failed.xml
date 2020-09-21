@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GWSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc3_CreateNewperson">
+        <methods>
+          <include name="endtest"/>
+          <include name="b" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc3_CreateNewperson -->
+      <class name="GW.Guidewire.Testcases.Tc2_login">
+        <methods>
+          <include name="endtest"/>
+          <include name="f"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc2_login -->
+      <class name="GW.Guidewire.Testcases.Tc4_Search_edit">
+        <methods>
+          <include name="f"/>
+          <include name="endtest"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc4_Search_edit -->
+      <class name="GW.Guidewire.Testcases.Tc1_login">
+        <methods>
+          <include name="f" invocation-numbers="0 1 2"/>
+          <include name="suite"/>
+          <include name="endtest"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc1_login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [GWSuite] -->

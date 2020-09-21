@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc1_login">
+        <methods>
+          <include name="suite"/>
+          <include name="f" invocation-numbers="1 2"/>
+          <include name="endtest"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc1_login -->
+      <class name="GW.Guidewire.Testcases.Tc2_login">
+        <methods>
+          <include name="endtest"/>
+          <include name="setup"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc2_login -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
