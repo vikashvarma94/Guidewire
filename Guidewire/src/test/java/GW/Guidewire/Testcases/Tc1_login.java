@@ -12,7 +12,7 @@ import junit.framework.Assert;
 
 public class Tc1_login extends baseclass {
 	
-  @Test(dataProvider = "login",dataProviderClass = Login_TestData.class)
+  @Test(dataProvider = "login",dataProviderClass = Login_TestData.class )
   
   public void f(String url,String u,String p, String expected) {
 	 test = report.createTest("login");

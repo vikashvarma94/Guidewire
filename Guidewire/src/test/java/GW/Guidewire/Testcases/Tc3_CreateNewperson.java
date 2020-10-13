@@ -44,6 +44,6 @@ public class Tc3_CreateNewperson extends baseclass {
 		
 		// NewPerson.Update.click();
 		 
-		 Assert.assertEquals(driver.findElement(By.className("infobar_elem_val")).getText(), first+" "+last);
+		// Assert.assertEquals(driver.findElement(By.className("infobar_elem_val")).getText(), first+" "+last);
   }
 }

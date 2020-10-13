@@ -42,7 +42,6 @@ public class baseclass {
 	public static ExtentReports report;
 	public static ExtentTest test;
 	public static String browsername = null;
-
 	public String id="1";	
 	public Logger logger;
 	
@@ -60,33 +59,34 @@ public class baseclass {
 		PropertyConfigurator.configure("log4j.properties");
 		logger.setLevel(Level.DEBUG);
 				}
-  @BeforeMethod
-  public void setup() throws IOException {
-	  Propertiesfile.getproperties();
-	  System.out.println(browsername);
-	  
+	@BeforeMethod
+	public void setup() throws IOException {
+	  Propertiesfile.getproperties();  
 		
 		if(browsername.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();	}
-		  
-		else if(browsername.equalsIgnoreCase("IE")) {
-			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\src\\drivers\\IEDriverServer.exe");
-			driver = new InternetExplorerDriver();}
-		
-		else if(browsername.equalsIgnoreCase("Unit")) {
-			driver = new HtmlUnitDriver();}
 			  
-		else {
-			System.setProperty("webdriver.edge.driver","C:\\Users\\151508\\eclipse-workspace\\Guidewire\\src\\drivers\\msedgedriver.exe");
+		else if(browsername.equalsIgnoreCase("Edge")) {
+			System.setProperty("webdriver.edge.driver",System.getProperty("user.dir")+"\\drivers\\msedgedriver.exe");
 			//Main.class.getProtectionDomain().getCodeSource() + "/msedgedriver.exe");
 			driver = new EdgeDriver();}
-		  	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+		else if(browsername.equalsIgnoreCase("Firefox")) {
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
+			driver = new FirefoxDriver();} 
+		
+		else if(browsername.equalsIgnoreCase("IE")) {
+			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe");
+			driver = new InternetExplorerDriver();}
+		
+		 else { 	
+				driver = new HtmlUnitDriver();}  	
 	}
   
 
-@AfterMethod
-public void endtest(ITestResult result) throws IOException {
+  @AfterMethod
+  public void endtest(ITestResult result) throws IOException {
 	
 	if(result.getStatus()==ITestResult.FAILURE)
 	{
@@ -99,9 +99,9 @@ public void endtest(ITestResult result) throws IOException {
 	}
 
 
-@AfterSuite
+  @AfterSuite
 	public void afterSuite() throws InterruptedException, IOException {	
-//report.flush();
+	  //report.flush();
   }
 
 	public static class Utility 

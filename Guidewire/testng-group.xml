@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GWSuite">
+  <test name="Test"><!--thread-count="5" -->
+  
+  <groups>
+  	<run>
+  		<include name ="regration"></include>
+  		
+  	</run>
+  </groups>
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc1_login"/>
+      <class name="GW.Guidewire.Testcases.Tc2_login"/>
+      <class name="GW.Guidewire.Testcases.Tc3_CreateNewperson"/>
+      <class name="GW.Guidewire.Testcases.Tc4_Search_edit"/>
+      <class name="GW.Guidewire.Testcases.group"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- GWSuite -->

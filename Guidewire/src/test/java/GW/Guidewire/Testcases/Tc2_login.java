@@ -14,7 +14,7 @@ import junit.framework.Assert;
 
 public class Tc2_login extends baseclass  {
 	
-  @Test
+  @Test(groups = {"regration"})
   
   public void f() {
 	  test = report.createTest("login");
@@ -26,6 +26,6 @@ public class Tc2_login extends baseclass  {
 	 login l = new login(driver);
 	 login.signin("su","gw");
 
-	 Assert.assertEquals(driver.getTitle(), "expected");
+	 Assert.assertEquals(driver.getTitle(), "[DEV mode - 8.0.2.18] Guidewire TrainingApp");
   }
 }

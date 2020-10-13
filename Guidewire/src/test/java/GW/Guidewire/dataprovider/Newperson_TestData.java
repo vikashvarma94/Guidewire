@@ -15,9 +15,9 @@ public class Newperson_TestData {
 		  XSSFWorkbook wb = new XSSFWorkbook(fis);
 		  XSSFSheet sh = wb.getSheetAt(0);
 		  
-		  Object[][] d= new Object[1][4];
+		  Object[][] d= new Object[3][4];
 		  
-		  for(int i = 1; i<=1; i++) 
+		  for(int i = 1; i<=3; i++) 
 			  for(int j = 1; j<=4; j++) {
 			 d[i-1][j-1] = sh.getRow(i).getCell(j).getStringCellValue();
 		  }
