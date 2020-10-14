@@ -22,6 +22,6 @@ public class Tc1_login extends baseclass {
 	 login l = new login(driver);
 	 l.signin(u,p);
 
-	 Assert.assertEquals(driver.getTitle(), expected);
+	 Assert.assertTrue(driver.findElement(By.id("image-1011")).isEnabled());
   }
 }

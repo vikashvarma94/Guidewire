@@ -2,10 +2,7 @@ package GW.Guidewire.base;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
-import org.apache.html.dom.HTMLDirectoryElementImpl;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -19,21 +16,15 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-import GW.Guidewire.config.Propertiesfile;
+import GW.Guidewire.utills.Readconfig;
 
 
 
@@ -43,7 +34,7 @@ public class baseclass {
 	public static ExtentTest test;
 	public static String browsername = null;
 	public String id="1";	
-	public Logger logger;
+	public Logger log;
 	
 	
 
@@ -53,15 +44,13 @@ public class baseclass {
 		    report = new ExtentReports(); 
 		    report.attachReporter(reporter);
 		    }
-	@BeforeClass
-	public void setUp() {
-		logger=Logger.getLogger("EmployeesRestAPI");
-		PropertyConfigurator.configure("log4j.properties");
-		logger.setLevel(Level.DEBUG);
-				}
+	
 	@BeforeMethod
 	public void setup() throws IOException {
-	  Propertiesfile.getproperties();  
+	  Readconfig.getproperties();  
+	  log=Logger.getLogger("Guidewire");
+	  PropertyConfigurator.configure("log4j.properties");
+	  log.setLevel(Level.DEBUG);
 		
 		if(browsername.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
@@ -82,6 +71,7 @@ public class baseclass {
 		
 		 else { 	
 				driver = new HtmlUnitDriver();}  	
+		log.info("***** "+browsername+" Browser Launched ******");
 	}
   
 
@@ -89,20 +79,17 @@ public class baseclass {
   public void endtest(ITestResult result) throws IOException {
 	
 	if(result.getStatus()==ITestResult.FAILURE)
-	{
+	{	log.info("***** Test Method failed ******");
 		String temp=Utility.getScreenshot(driver);	
 		test.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 	}
+	log.info("***** Test Method Passed ******");
 	driver.close();
+	log.info("***** Browser Closed ******");
 	report.flush();
-	Propertiesfile.setproperties();
+	Readconfig.setproperties();
 	}
 
-
-  @AfterSuite
-	public void afterSuite() throws InterruptedException, IOException {	
-	  //report.flush();
-  }
 
 	public static class Utility 
 	{

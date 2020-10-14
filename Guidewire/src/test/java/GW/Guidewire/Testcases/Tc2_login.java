@@ -26,6 +26,6 @@ public class Tc2_login extends baseclass  {
 	 login l = new login(driver);
 	 login.signin("su","gw");
 
-	 Assert.assertEquals(driver.getTitle(), "[DEV mode - 8.0.2.18] Guidewire TrainingApp");
+	 Assert.assertTrue(driver.findElement(By.id("image-1011")).isEnabled());
   }
 }

@@ -1,4 +1,4 @@
-package GW.Guidewire.config;
+package GW.Guidewire.utills;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ import java.util.Properties;
 
 import GW.Guidewire.base.baseclass;
 
-public class Propertiesfile {
+public class Readconfig {
 	static Properties prop = new Properties();
 
 	public static void main(String[] args) throws IOException {
@@ -17,7 +17,7 @@ public class Propertiesfile {
 	}
 	public static void getproperties() throws IOException {
 		
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\GW\\Guidewire\\config\\config.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\GW\\Guidewire\\utills\\config.properties");
 		prop.load(fis);
 		System.out.println(prop.getProperty("browser"));
 		baseclass.browsername = prop.getProperty("browser");
@@ -25,7 +25,7 @@ public class Propertiesfile {
 	
 	public static void setproperties() throws IOException {
 		
-		FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\java\\GW\\Guidewire\\config\\config.properties");
+		FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\java\\GW\\Guidewire\\utills\\config.properties");
 		prop.setProperty("Result", "Pass");
 		prop.store(fos, null);
 		

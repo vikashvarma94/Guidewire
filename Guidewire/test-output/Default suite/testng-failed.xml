@@ -6,9 +6,7 @@
       <class name="GW.Guidewire.Testcases.Tc2_login">
         <methods>
           <include name="suite"/>
-          <include name="endtest"/>
           <include name="f"/>
-          <include name="afterSuite"/>
           <include name="setUp"/>
           <include name="setup"/>
         </methods>

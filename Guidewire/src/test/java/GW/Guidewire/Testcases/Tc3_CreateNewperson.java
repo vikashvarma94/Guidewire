@@ -42,8 +42,8 @@ public class Tc3_CreateNewperson extends baseclass {
 		 NewPerson.Country.click();
 		 NewPerson.Address1.sendKeys("test");
 		
-		// NewPerson.Update.click();
+		 NewPerson.Update.click();
 		 
-		// Assert.assertEquals(driver.findElement(By.className("infobar_elem_val")).getText(), first+" "+last);
+		 Assert.assertEquals(driver.findElement(By.className("infobar_elem_val")).getText(), first+" "+last);
   }
 }
