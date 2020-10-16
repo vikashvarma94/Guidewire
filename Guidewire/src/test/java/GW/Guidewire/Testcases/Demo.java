@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import GW.Guidewire.base.baseclass;
 
 public class Demo  {
-  @Test(groups = {"regration"} )
+  @Test(groups = {"regration"} )//priority =0
   public void f() {
 	  System.out.println("regration suite run succesfully");
   }
