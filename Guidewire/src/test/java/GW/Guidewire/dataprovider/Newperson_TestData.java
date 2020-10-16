@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Newperson_TestData {
 	  @DataProvider(name = "New person")
 	  public Object[][] f() throws IOException {
-		  FileInputStream fis = new FileInputStream("C:\\Users\\151508\\eclipse-workspace\\Guidewire\\src\\TestData\\New person data.xlsx");
+		  FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\TestData\\New person data.xlsx");
 		  XSSFWorkbook wb = new XSSFWorkbook(fis);
 		  XSSFSheet sh = wb.getSheetAt(0);
 		  

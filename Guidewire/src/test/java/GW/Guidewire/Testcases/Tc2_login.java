@@ -4,7 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.Test;
 
 import GW.Guidewire.base.baseclass;
@@ -14,12 +13,11 @@ import junit.framework.Assert;
 
 public class Tc2_login extends baseclass  {
 	
-  @Test(groups = {"regration"})
+  @Test(groups = {"sanity"})
   
   public void f() {
 	  test = report.createTest("login");
-	  
-	 // WebDriver driver = new HtmlUnitDriver();
+	 
 	 driver.get("http://localhost:8880/ab/ContactManager.do"); 
 	 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite" parallel="tests">
+  <test name="Test">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc2_login"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc2_login"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class Login_TestData {
   @DataProvider(name = "login")
   public Object[][] f() throws IOException {
-	  FileInputStream fis = new FileInputStream("C:\\Users\\151508\\eclipse-workspace\\Guidewire\\src\\TestData\\login data.xlsx");
+	  FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\TestData\\login data.xlsx");
 	  XSSFWorkbook wb = new XSSFWorkbook(fis);
 	  XSSFSheet sh = wb.getSheetAt(0);
 	  

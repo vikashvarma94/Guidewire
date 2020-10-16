@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)" parallel="methods">
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc3_CreateNewperson">
+        <methods>
+          <include name="endtest"/>
+          <include name="b" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc3_CreateNewperson -->
+      <class name="GW.Guidewire.Testcases.Tc1_login">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="endtest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc1_login -->
+      <class name="GW.Guidewire.Testcases.Tc4_Search_edit">
+        <methods>
+          <include name="f"/>
+          <include name="suite"/>
+          <include name="endtest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc4_Search_edit -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

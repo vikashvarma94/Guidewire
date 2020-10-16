@@ -5,8 +5,7 @@
   
   <groups>
   	<run>
-  		<include name ="regration"></include>
-  		
+  		<include name ="sanity"/>		
   	</run>
   </groups>
     <classes>

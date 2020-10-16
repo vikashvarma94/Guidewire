@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [GWSuite]]">
+  <test name="Test(failed)(failed)">
+    <groups>
+      <run>
+        <include name="all"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc2_login">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc2_login -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [GWSuite]] -->

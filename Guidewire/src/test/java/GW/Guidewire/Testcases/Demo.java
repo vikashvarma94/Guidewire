@@ -2,8 +2,10 @@ package GW.Guidewire.Testcases;
 
 import org.testng.annotations.Test;
 
-public class group {
-  @Test(groups = {"regration"})
+import GW.Guidewire.base.baseclass;
+
+public class Demo  {
+  @Test(groups = {"regration"} )
   public void f() {
 	  System.out.println("regration suite run succesfully");
   }

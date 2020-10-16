@@ -34,9 +34,10 @@
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
-	    <version>3.141.5</version>
+	    <version>3.141.59</version>
 	</dependency>
 	
+	   
 	<dependency>
 	             <groupId>org.apache.poi</groupId>
 	             <artifactId>poi</artifactId>
@@ -99,12 +100,7 @@
 	    <version>3.1.5</version>
 	</dependency>
 	
-	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
-	<dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-java</artifactId>
-	<version>2.53.1</version>
-	</dependency>
+	
 	<dependency>
 	      <groupId>xml-apis</groupId>
 	      <artifactId>xml-apis</artifactId>

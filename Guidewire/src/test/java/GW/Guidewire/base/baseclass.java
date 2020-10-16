@@ -12,17 +12,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.beust.jcommander.Parameter;
 
 import GW.Guidewire.utills.Readconfig;
 
@@ -33,24 +37,26 @@ public class baseclass {
 	public static ExtentReports report;
 	public static ExtentTest test;
 	public static String browsername = null;
-	public String id="1";	
+
 	public Logger log;
 	
 	
 
-	@BeforeSuite
+	@BeforeSuite(alwaysRun = true)
 	  public void suite() {  
 		 ExtentHtmlReporter reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"//Reports/extent report.html");
 		    report = new ExtentReports(); 
 		    report.attachReporter(reporter);
 		    }
 	
-	@BeforeMethod
+	//@Parameters("browser")
+	@BeforeMethod(alwaysRun = true)
 	public void setup() throws IOException {
-	  Readconfig.getproperties();  
-	  log=Logger.getLogger("Guidewire");
-	  PropertyConfigurator.configure("log4j.properties");
-	  log.setLevel(Level.DEBUG);
+		
+		Readconfig.getproperties();  
+		log=Logger.getLogger("Guidewire");
+		PropertyConfigurator.configure("log4j.properties");
+	 
 		
 		if(browsername.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
@@ -69,13 +75,12 @@ public class baseclass {
 			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();}
 		
-		 else { 	
-				driver = new HtmlUnitDriver();}  	
+		// else { 	driver = new HTMLunitdriver();}  
 		log.info("***** "+browsername+" Browser Launched ******");
 	}
   
 
-  @AfterMethod
+  @AfterMethod(alwaysRun = true)
   public void endtest(ITestResult result) throws IOException {
 	
 	if(result.getStatus()==ITestResult.FAILURE)
@@ -83,7 +88,8 @@ public class baseclass {
 		String temp=Utility.getScreenshot(driver);	
 		test.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 	}
-	log.info("***** Test Method Passed ******");
+	else {log.info("***** Test Method Passed ******");}
+	
 	driver.close();
 	log.info("***** Browser Closed ******");
 	report.flush();

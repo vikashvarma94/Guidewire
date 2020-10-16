@@ -22,7 +22,6 @@ public class Tc3_CreateNewperson extends baseclass {
 		 test = report.createTest("New person");
 		 driver.get(url); 
 		 
-		 driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 		 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		 
 		 login l = new login(driver);
