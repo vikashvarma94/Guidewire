@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="GW.Guidewire.Testcases.Tc4_Search_edit">
+      <class name="GW.Guidewire.Testcases.Tc2_login">
         <methods>
-          <include name="f"/>
+          <include name="login_test"/>
           <include name="suite"/>
           <include name="endtest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- GW.Guidewire.Testcases.Tc4_Search_edit -->
+      </class> <!-- GW.Guidewire.Testcases.Tc2_login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

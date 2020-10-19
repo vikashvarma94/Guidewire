@@ -10,17 +10,12 @@ public class Person {
 	public static WebDriver driver;
 	@FindBy(xpath="//span[contains(text(),\"Details\")]") 
 	public static WebElement Details;
-		@FindBy(id="ABContactDetailsPage:Edit-btnInnerEl")
+		@FindBy(xpath="//span[contains(text(),\"dit\")]")
 		public static WebElement Edit;
-		@FindBy(xpath="//span[contains(text(),\"U\")]")
+		@FindBy(xpath="//span[contains(text(),\"pdate\")]")
 		public static WebElement Update;
 		@FindBy(xpath="//span[contains(text(),\"Cance\")]")
 		public static WebElement Cancel;
-	
-	@FindBy(id="NewContact:ABContactDetailScreen:ContactBasicsDV_tb:Update-btnInnerEl")
-	public static WebElement Update1;
-	@FindBy(id="NewContact:ABContactDetailScreen:ContactBasicsDV_tb:Cancel-btnInnerEl")
-	public static WebElement Cancel1;
 	
 	@FindBy(id="ABContactSummaryPage:ABContactSummaryScreen:ABContactSummaryDV:AddressOwnerInputSet:globalAddressContainer:GlobalAddressInputSet:Country-inputEl") 
 	public static WebElement Country;

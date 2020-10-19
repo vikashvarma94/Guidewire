@@ -2,6 +2,9 @@ package GW.Guidewire.base;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -37,12 +40,13 @@ public class baseclass {
 	public static ExtentReports report;
 	public static ExtentTest test;
 	public static String browsername = null;
-
+	public static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("(YYYY-MM-dd)/(HH_mm_ss)");  
+	public static LocalDateTime now = LocalDateTime.now();
 	public Logger log;	
 
 	@BeforeSuite(alwaysRun = true)
 	  public void suite() {  
-		 ExtentHtmlReporter reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"//Reports/extent report.html");
+		 ExtentHtmlReporter reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"//Reports/"+dtf.format(now)+".html");
 		    report = new ExtentReports(); 
 		    report.attachReporter(reporter);
 		    }
@@ -91,7 +95,7 @@ public class baseclass {
 	driver.close();
 	log.info("***** Browser Closed ******");
 	report.flush();
-	Readconfig.setproperties();
+	//Readconfig.setproperties();
 	}
 
 
@@ -100,18 +104,16 @@ public class baseclass {
 	public static String getScreenshot(WebDriver driver)
 	{
 		TakesScreenshot ts=(TakesScreenshot) driver;
-		
 		File src=ts.getScreenshotAs(OutputType.FILE);
+		 
 		
-		String path=System.getProperty("user.dir")+"//Scren Shorts/"+System.currentTimeMillis()+".png";
-		
+		String path=System.getProperty("user.dir")+"//Screnshots/"+dtf.format(now)+".png";
 		File destination=new File(path);
-		
-		try 
+			try 
 		{
 			FileUtils.copyFile(src, destination);
-		} catch (IOException e) 
-		{
+		} catch (IOException e) {
+		
 			System.out.println("Capture Failed "+e.getMessage());
 		}
 		return path;

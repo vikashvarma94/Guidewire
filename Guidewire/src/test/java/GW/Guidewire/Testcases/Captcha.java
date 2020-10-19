@@ -30,7 +30,7 @@ public class Captcha extends baseclass {
 	  
 	  File f = driver.findElement(By.xpath("(//div/div/div/div/div/div)[15]")).getScreenshotAs(OutputType.FILE);
 	
-	  String path=System.getProperty("user.dir")+"//Scren Shorts/cap.png";
+	  String path=System.getProperty("user.dir")+"//Screnshots/cap.png";
 		
 		File destination=new File(path);
 		FileUtils.copyFile(f, destination);

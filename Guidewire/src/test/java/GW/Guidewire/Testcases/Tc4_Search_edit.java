@@ -17,7 +17,7 @@ public class Tc4_Search_edit extends baseclass {
   /**
 	 * Test for Edit & update person contact details
 	 */
-  public void f() throws InterruptedException {
+  public void Edit_contact() throws InterruptedException {
 	  test  = report.createTest("search & edit");
 	  driver.get("http://localhost:8880/ab/ContactManager.do"); 
 	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -29,13 +29,13 @@ public class Tc4_Search_edit extends baseclass {
 	  Login.signin("su", "gw");
 	  
 	  Homepage.Contacttype.sendKeys("Contact"); 
-	  Homepage.Lastname.sendKeys("varma");
+	  Homepage.Lastname.sendKeys("Global");
 	  Homepage.Searchbtn.click();
-	  Thread.sleep(1000);
-	  driver.findElement(By.linkText("vikas varma")).click();
-	  Person.Details.click();
+	  driver.findElement(By.linkText("Ust Global")).click();
 	  Person.Edit.click();
-	  Person.Country.sendKeys("Canada");
+	  Person.Country.clear();
+	  Person.Country.sendKeys("Japan");
+	  Person.Country.click();
 	  Person.Address1.sendKeys("test");
 	  Person.Address2.sendKeys("test2");
 	  Person.validdate.sendKeys("31/12/2020");
