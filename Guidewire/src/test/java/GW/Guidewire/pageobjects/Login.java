@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-public class login {
+public class Login {
 
 	 public static WebDriver driver;
 	 
@@ -14,8 +14,8 @@ public class login {
 	 @FindBy (id="Login:LoginScreen:LoginDV:password-inputEl")  public static WebElement password;
 	 @FindBy (xpath="//tbody/tr/td/a") public static WebElement submit;
 	 
-	 public login(WebDriver driver) {
-		 login.driver=driver;
+	 public Login(WebDriver driver) {
+		 Login.driver=driver;
 		 PageFactory.initElements(driver, this);}
 	 
 	 public static void signin(String u, String p) {

@@ -26,7 +26,7 @@ public class Readconfig {
 	public static void setproperties() throws IOException {
 		
 		FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\java\\GW\\Guidewire\\utills\\config.properties");
-		prop.setProperty("Result", "Pass");
+		prop.setProperty("result", "Pass");
 		prop.store(fos, null);
 		
 	}

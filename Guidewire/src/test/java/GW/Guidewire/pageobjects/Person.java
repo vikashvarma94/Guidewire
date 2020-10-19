@@ -22,6 +22,16 @@ public class Person {
 	@FindBy(id="NewContact:ABContactDetailScreen:ContactBasicsDV_tb:Cancel-btnInnerEl")
 	public static WebElement Cancel1;
 	
+	@FindBy(id="ABContactSummaryPage:ABContactSummaryScreen:ABContactSummaryDV:AddressOwnerInputSet:globalAddressContainer:GlobalAddressInputSet:Country-inputEl") 
+	public static WebElement Country;
+	@FindBy(id="ABContactSummaryPage:ABContactSummaryScreen:ABContactSummaryDV:AddressOwnerInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1-inputEl") 
+	public static WebElement Address1;
+	@FindBy(id="ABContactSummaryPage:ABContactSummaryScreen:ABContactSummaryDV:AddressOwnerInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine2-inputEl") 
+	public static WebElement Address2;
+	@FindBy(id="ABContactSummaryPage:ABContactSummaryScreen:ABContactSummaryDV:AddressOwnerInputSet:Address_ValidUntil-inputEl") 
+	public static WebElement validdate;
+	
+	
 	public Person (WebDriver driver) {
 		NewPerson.driver=driver;
 		PageFactory.initElements(driver, this);

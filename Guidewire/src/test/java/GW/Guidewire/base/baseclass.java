@@ -38,9 +38,7 @@ public class baseclass {
 	public static ExtentTest test;
 	public static String browsername = null;
 
-	public Logger log;
-	
-	
+	public Logger log;	
 
 	@BeforeSuite(alwaysRun = true)
 	  public void suite() {  

@@ -12,23 +12,24 @@ import GW.Guidewire.dataprovider.Login_TestData;
 import GW.Guidewire.dataprovider.Newperson_TestData;
 import GW.Guidewire.pageobjects.Homepage;
 import GW.Guidewire.pageobjects.NewPerson;
-import GW.Guidewire.pageobjects.login;
+import GW.Guidewire.pageobjects.Login;
 
 
 public class Tc3_CreateNewperson extends baseclass {
-	 @Test(dataProvider = "New person",dataProviderClass = Newperson_TestData.class)
-	  
-	  public void b(String url,String first,String last,String Taxid) {
+	/**
+	 * Test for create new person contact
+	 */
+	 @Test(dataProvider = "New person",dataProviderClass = Newperson_TestData.class)  
+	  public void create_contact(String url,String first,String last,String Taxid) {
 		 test = report.createTest("New person");
 		 driver.get(url); 
-		 
 		 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		 
-		 login l = new login(driver);
+		 Login l = new Login(driver);
 		 Homepage h = new Homepage(driver);
 		 NewPerson np= new NewPerson(driver);
 		 
-		 login.signin("su","gw");
+		 Login.signin("su","gw");
 	
 		 Homepage.Actions.click();
 		 Homepage.Newperson.click();
@@ -40,7 +41,6 @@ public class Tc3_CreateNewperson extends baseclass {
 		 NewPerson.Country.sendKeys("Canada");
 		 NewPerson.Country.click();
 		 NewPerson.Address1.sendKeys("test");
-		
 		 NewPerson.Update.click();
 		 
 		 Assert.assertEquals(driver.findElement(By.className("infobar_elem_val")).getText(), first+" "+last);
