@@ -431,3 +431,36 @@
 2020-10-20 00:17:15,158 [main] INFO Guidewire - ***** Edge Browser Launched ******
 2020-10-20 00:17:21,726 [main] INFO Guidewire - ***** Test Method failed ******
 2020-10-20 00:17:26,359 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:22:37,910 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:22:39,647 [main] INFO Guidewire - ***** Test Method Passed ******
+2020-10-20 00:22:39,864 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:22:43,354 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:22:49,944 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 00:22:54,535 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:22:57,787 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:23:04,242 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 00:23:08,835 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:31:32,565 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:31:39,645 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 00:31:44,264 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:34:45,171 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:34:51,778 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 00:34:56,423 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:35:26,510 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:35:32,997 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 00:35:37,605 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:37:10,128 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:37:16,622 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 00:37:21,268 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 00:38:09,911 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 00:38:16,562 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 00:38:21,184 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 22:57:29,483 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 22:57:39,821 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 22:57:45,450 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 23:00:26,845 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 23:00:33,465 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 23:00:38,068 [main] INFO Guidewire - ***** Browser Closed ******
+2020-10-20 23:01:44,515 [main] INFO Guidewire - ***** Edge Browser Launched ******
+2020-10-20 23:01:51,019 [main] INFO Guidewire - ***** Test Method failed ******
+2020-10-20 23:01:55,648 [main] INFO Guidewire - ***** Browser Closed ******

@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15409" started-at="2020-10-19T18:47:11Z" finished-at="2020-10-19T18:47:26Z">
+  <suite name="Default suite" duration-ms="15253" started-at="2020-10-20T17:31:40Z" finished-at="2020-10-20T17:31:55Z">
     <groups>
       <group name="sanity">
         <method signature="Tc2_login.login_test()[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="login_test" class="GW.Guidewire.Testcases.Tc2_login"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Default test" duration-ms="15409" started-at="2020-10-19T18:47:11Z" finished-at="2020-10-19T18:47:26Z">
+    <test name="Default test" duration-ms="15253" started-at="2020-10-20T17:31:40Z" finished-at="2020-10-20T17:31:55Z">
       <class name="GW.Guidewire.Testcases.Tc2_login">
-        <test-method status="PASS" signature="suite()[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="suite" is-config="true" duration-ms="124" started-at="2020-10-20T00:17:11Z" finished-at="2020-10-20T00:17:11Z">
+        <test-method status="PASS" signature="suite()[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="suite" is-config="true" duration-ms="116" started-at="2020-10-20T23:01:40Z" finished-at="2020-10-20T23:01:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="setup" is-config="true" duration-ms="3938" started-at="2020-10-20T00:17:11Z" finished-at="2020-10-20T00:17:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="setup" is-config="true" duration-ms="3858" started-at="2020-10-20T23:01:40Z" finished-at="2020-10-20T23:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="login_test()[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="login_test" duration-ms="6559" started-at="2020-10-20T00:17:15Z" finished-at="2020-10-20T00:17:21Z">
+        <test-method status="FAIL" signature="login_test()[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="login_test" duration-ms="6497" started-at="2020-10-20T23:01:44Z" finished-at="2020-10-20T23:01:51Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'ctions2')]"}
-  (Session info: MicrosoftEdge=86.0.622.38)
+  (Session info: MicrosoftEdge=86.0.622.43)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'A073DHYD', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'A073DHYD', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.38, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60534}, msedge: {msedgedriverVersion: 85.0.564.51 (626274a16bb350..., userDataDir: C:\Users\151508\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dcc8c4c8971bfa91e4a5ecfd9f44ea4d
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.43, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59972}, msedge: {msedgedriverVersion: 85.0.564.51 (626274a16bb350..., userDataDir: C:\Users\151508\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c1dd6f449b287d34b7c7882d95ca66ba
 *** Element info: {Using=xpath, value=//span[contains(text(),'ctions2')]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'ctions2')]"}
-  (Session info: MicrosoftEdge=86.0.622.38)
+  (Session info: MicrosoftEdge=86.0.622.43)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'A073DHYD', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'A073DHYD', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.38, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60534}, msedge: {msedgedriverVersion: 85.0.564.51 (626274a16bb350..., userDataDir: C:\Users\151508\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dcc8c4c8971bfa91e4a5ecfd9f44ea4d
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.43, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59972}, msedge: {msedgedriverVersion: 85.0.564.51 (626274a16bb350..., userDataDir: C:\Users\151508\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c1dd6f449b287d34b7c7882d95ca66ba
 *** Element info: {Using=xpath, value=//span[contains(text(),'ctions2')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -87,7 +87,7 @@ Session ID: dcc8c4c8971bfa91e4a5ecfd9f44ea4d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_test -->
-        <test-method status="PASS" signature="endtest(org.testng.ITestResult)[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="endtest" is-config="true" duration-ms="4892" started-at="2020-10-20T00:17:21Z" finished-at="2020-10-20T00:17:26Z">
+        <test-method status="PASS" signature="endtest(org.testng.ITestResult)[pri:0, instance:GW.Guidewire.Testcases.Tc2_login@6f195bc3]" name="endtest" is-config="true" duration-ms="4883" started-at="2020-10-20T23:01:51Z" finished-at="2020-10-20T23:01:55Z">
           <params>
             <param index="0">
               <value>

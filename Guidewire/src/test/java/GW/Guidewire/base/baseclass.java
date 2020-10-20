@@ -40,7 +40,7 @@ public class baseclass {
 	public static ExtentReports report;
 	public static ExtentTest test;
 	public static String browsername = null;
-	public static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("(YYYY-MM-dd)/(HH_mm_ss)");  
+	public static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("YYYY-MM-dd HH_mm_ss");  
 	public static LocalDateTime now = LocalDateTime.now();
 	public Logger log;	
 
