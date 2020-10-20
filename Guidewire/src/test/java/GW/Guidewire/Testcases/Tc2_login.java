@@ -25,6 +25,6 @@ public class Tc2_login extends baseclass  {
 	  Login l = new Login(driver);
 	  Login.signin("su","gw");
 
-	  Assert.assertTrue(driver.findElement(By.xpath("//span[contains(text(),'ctions2')]")).isEnabled());
+	  Assert.assertTrue(driver.findElement(By.xpath("//span[contains(text(),'ctions')]")).isEnabled());
   }
 }
