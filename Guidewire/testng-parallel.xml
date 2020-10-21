@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
+  <test thread-count="6" name="Test" parallel = "methods" >
     <classes>
-      <class name="GW.Guidewire.Testcases.Tc1_login"/>
-       <class name="GW.Guidewire.Testcases.Tc2_login"/>
+      <class name="GW.Guidewire.Testcases.Tc1_Login"/>
+       <class name="GW.Guidewire.Testcases.Tc2_Batchprocess"/>
       <class name="GW.Guidewire.Testcases.Tc3_CreateNewperson"/>
        <class name="GW.Guidewire.Testcases.Tc4_Search_edit"/>
      

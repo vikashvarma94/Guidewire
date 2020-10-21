@@ -8,9 +8,16 @@
       </run>
     </groups>
     <classes>
+      <class name="GW.Guidewire.Testcases.Tc1_login">
+        <methods>
+          <include name="suite"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc1_login -->
       <class name="GW.Guidewire.Testcases.Tc2_login">
         <methods>
-          <include name="f"/>
+          <include name="login_test"/>
+          <include name="endtest"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- GW.Guidewire.Testcases.Tc2_login -->
     </classes>

@@ -17,6 +17,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -33,8 +34,6 @@ import com.beust.jcommander.Parameter;
 
 import GW.Guidewire.utills.Readconfig;
 
-
-
 public class baseclass {
 	public static WebDriver driver;
 	public static ExtentReports report;
@@ -45,15 +44,15 @@ public class baseclass {
 	public Logger log;	
 
 	@BeforeSuite(alwaysRun = true)
-	  public void suite() {  
+	  	public void suite() {  
 		 ExtentHtmlReporter reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"//Reports/"+dtf.format(now)+".html");
 		    report = new ExtentReports(); 
 		    report.attachReporter(reporter);
 		    }
 	
-	//@Parameters("browser")
+		//@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)
-	public void setup() throws IOException {
+		public void setup() throws IOException {
 		
 		Readconfig.getproperties();  
 		log=Logger.getLogger("Guidewire");
@@ -74,6 +73,7 @@ public class baseclass {
 			driver = new FirefoxDriver();} 
 		
 		else if(browsername.equalsIgnoreCase("IE")) {
+			
 			System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();}
 		
@@ -83,7 +83,7 @@ public class baseclass {
   
 
   @AfterMethod(alwaysRun = true)
-  public void endtest(ITestResult result) throws IOException {
+  		public void endtest(ITestResult result) throws IOException {
 	
 	if(result.getStatus()==ITestResult.FAILURE)
 	{	log.info("***** Test Method failed ******");
@@ -99,14 +99,12 @@ public class baseclass {
 	}
 
 
-	public static class Utility 
+		public static class Utility 
 	{
 	public static String getScreenshot(WebDriver driver)
 	{
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
-		 
-		
 		String path=System.getProperty("user.dir")+"//Screnshots/"+dtf.format(now)+".png";
 		File destination=new File(path);
 			try 

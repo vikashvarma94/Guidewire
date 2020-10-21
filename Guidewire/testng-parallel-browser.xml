@@ -4,14 +4,14 @@
   <test name="Test">
     <parameter name="browser" value="Edge"/>
     <classes>
-      <class name="GW.Guidewire.Testcases.Tc2_login"/>
+      <class name="GW.Guidewire.Testcases.Tc2_Batchprocess"/>
     </classes>
   </test> <!-- Test -->
   
    <test name="Test2">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="GW.Guidewire.Testcases.Tc2_login"/>
+      <class name="GW.Guidewire.Testcases.Tc2_Batchprocess"/>
     </classes>
   </test> 
   

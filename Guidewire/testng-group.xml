@@ -9,11 +9,11 @@
   	</run>
   </groups>
     <classes>
-      <class name="GW.Guidewire.Testcases.Tc1_login"/>
-      <class name="GW.Guidewire.Testcases.Tc2_login"/>
+      <class name="GW.Guidewire.Testcases.Tc1_Login"/>
+      <class name="GW.Guidewire.Testcases.Tc2_Batchprocess"/>
       <class name="GW.Guidewire.Testcases.Tc3_CreateNewperson"/>
       <class name="GW.Guidewire.Testcases.Tc4_Search_edit"/>
-      <class name="GW.Guidewire.Testcases.group"/>
+      <class name="GW.Guidewire.Testcases.Demo"/>
       
     </classes>
   </test> <!-- Test -->

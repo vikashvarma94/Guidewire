@@ -10,7 +10,7 @@ import GW.Guidewire.dataprovider.Login_TestData;
 import GW.Guidewire.pageobjects.Login;
 import junit.framework.Assert;
 
-public class Tc1_login extends baseclass {
+public class Tc1_Login extends baseclass {
 	/**
 	 * Testing Login functionality with test data from xl file
 	 */	
