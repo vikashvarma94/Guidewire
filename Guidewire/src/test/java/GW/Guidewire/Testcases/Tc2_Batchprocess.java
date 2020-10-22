@@ -21,8 +21,8 @@ public class Tc2_Batchprocess extends baseclass  {
 	 * Check batch process
 	 */	
   @Test(groups = {"sanity"})
-  	public void login_test() throws InterruptedException {
-	  test = report.createTest("login");
+  	public void Batchprocess() throws InterruptedException {
+	  test = report.createTest("Batchprocess");
 	  driver.get("http://localhost:8880/ab/ContactManager.do"); 
 	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	
@@ -38,10 +38,11 @@ public class Tc2_Batchprocess extends baseclass  {
 		  String s = li.get(i).getText();
 		  System.out.println(s);
 	  if (s.contains("Database Statistics")) {
-		  System.out.println("pass");
-		  break;
+		  System.out.println("Database Statistics batch process is exist");
+		  break;}
+	  else if(i==li.size()-1) {
+		  System.out.println("Database Statistics batch process is not exist");
 	  }}
-
-	  
+	 
   }
 }

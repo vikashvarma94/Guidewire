@@ -50,22 +50,19 @@ public class baseclass {
 		    report.attachReporter(reporter);
 		    }
 	
-		//@Parameters("browser")
+	//@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)
-		public void setup() throws IOException {
-		
+		public void setup() throws IOException {//String browsername	
 		Readconfig.getproperties();  
 		log=Logger.getLogger("Guidewire");
 		PropertyConfigurator.configure("log4j.properties");
-	 
-		
+	 	
 		if(browsername.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();	}
 			  
 		else if(browsername.equalsIgnoreCase("Edge")) {
 			System.setProperty("webdriver.edge.driver",System.getProperty("user.dir")+"\\drivers\\msedgedriver.exe");
-			//Main.class.getProtectionDomain().getCodeSource() + "/msedgedriver.exe");
 			driver = new EdgeDriver();}
 		
 		else if(browsername.equalsIgnoreCase("Firefox")) {

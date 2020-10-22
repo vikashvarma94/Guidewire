@@ -658,3 +658,87 @@
 2020-10-22 01:10:48,607 - Guidewire -INFO - ***** Firefox Browser Launched ******
 2020-10-22 01:10:52,878 - Guidewire -INFO - ***** Test Method Passed ******
 2020-10-22 01:10:55,019 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:19:00,284 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:19:11,174 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 12:19:12,606 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:24:44,566 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:24:53,114 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 12:24:54,382 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:27:08,767 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:27:17,848 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 12:27:19,633 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:28:04,847 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:28:13,922 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 12:28:15,576 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:29:08,377 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:29:16,698 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 12:29:17,974 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:30:06,170 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:30:14,409 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 12:30:15,662 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:42:04,281 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:42:12,420 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 12:42:13,753 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:44:42,320 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:44:51,569 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 12:44:52,942 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:45:45,187 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:45:54,375 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 12:45:56,144 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:47:03,813 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:47:12,863 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 12:47:14,356 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:50:46,291 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:50:55,168 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 12:50:56,435 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:52:29,377 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 12:52:37,619 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 12:52:38,796 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:57:13,884 - Guidewire -INFO - ***** Edge Browser Launched ******
+2020-10-22 12:57:21,308 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 12:57:22,124 - Guidewire -INFO - ***** Chrome Browser Launched ******
+2020-10-22 12:57:25,632 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 12:57:28,756 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 12:57:28,862 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:02:34,139 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:02:36,562 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 13:02:38,097 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:02:41,983 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:02:49,137 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:02:50,375 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:02:54,079 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:03:01,004 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:03:02,238 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:03:05,938 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:03:14,178 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 13:03:15,582 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:03:19,315 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:03:27,295 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:03:28,639 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:03:32,327 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:03:40,204 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:03:41,544 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:03:45,260 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:03:53,340 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:03:54,983 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:03:58,697 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:04:03,974 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 13:04:05,693 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:19:33,611 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:19:45,521 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:19:46,917 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:19:50,845 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:20:01,817 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:20:03,563 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:20:07,280 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:20:19,738 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:20:21,163 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:22:18,459 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:22:20,991 - Guidewire -INFO - ***** Test Method Passed ******
+2020-10-22 13:22:22,727 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:22:26,651 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:22:33,999 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:22:35,409 - Guidewire -INFO - ***** Browser Closed ******
+2020-10-22 13:22:39,126 - Guidewire -INFO - ***** Firefox Browser Launched ******
+2020-10-22 13:22:46,264 - Guidewire -INFO - ***** Test Method failed ******
+2020-10-22 13:22:47,588 - Guidewire -INFO - ***** Browser Closed ******

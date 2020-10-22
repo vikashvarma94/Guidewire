@@ -10,8 +10,8 @@ public class Batchprocess {
 	 public static WebDriver driver;
 	 
 	 @FindBy (xpath="(//table/tbody)[9]/tr/td/div") public static WebElement Batchprocessname;
-	 @FindBy (id="Login:LoginScreen:LoginDV:password-inputEl")  public static WebElement password;
-	 @FindBy (xpath="//tbody/tr/td/a") public static WebElement submit;
+	 @FindBy (id="((//table/tbody)[9]/tr/td/div)[19]/span")  public static WebElement run;
+	
 	 
 	 public Batchprocess(WebDriver driver) {
 		 Login.driver=driver;

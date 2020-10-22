@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="Edge"/>
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="GW.Guidewire.Testcases.Tc2_Batchprocess">
+        <methods>
+          <include name="Batchprocess"/>
+          <include name="suite"/>
+          <include name="endtest"/>
+          <include name="endtest"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GW.Guidewire.Testcases.Tc2_Batchprocess -->
+    </classes>
+  </test> <!-- Test2(failed) -->
   <test name="Test(failed)" parallel="tests">
     <parameter name="browser" value="Edge"/>
     <classes>
-      <class name="GW.Guidewire.Testcases.Tc2_login">
+      <class name="GW.Guidewire.Testcases.Tc2_Batchprocess">
         <methods>
+          <include name="Batchprocess"/>
           <include name="suite"/>
           <include name="endtest"/>
-          <include name="f"/>
+          <include name="endtest"/>
+          <include name="setup"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- GW.Guidewire.Testcases.Tc2_login -->
+      </class> <!-- GW.Guidewire.Testcases.Tc2_Batchprocess -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
