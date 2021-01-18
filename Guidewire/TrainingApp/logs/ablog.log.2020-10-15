@@ -1,0 +1,166 @@
+                    2020-10-15 12:01:22,253 INFO Root directory is "D:\TrainingApp\webapps\ab"
+                    2020-10-15 12:01:22,294 INFO Temp directory is "C:\Users\151508\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2020-10-15 12:01:22,294 INFO Logging properties found at "D:\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2020-10-15 12:01:22,709 INFO GuidewireSoapApiAxisServlet.init - start
+                    2020-10-15 12:01:23,015 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2020-10-15 12:01:23,216 INFO Setup platform dependencies ...
+                    2020-10-15 12:01:23,668 INFO Reading config file: D:\TrainingApp\modules\configuration\config\config.xml
+                    2020-10-15 12:01:24,236 INFO Platform dependency setup complete.
+                    2020-10-15 12:01:24,236 INFO Setup application dependencies ...
+                    2020-10-15 12:01:24,503 INFO CustomizableSystemClock initialized, current time is now: 1602743484501, Thu Oct 15 12:01:24 IST 2020
+                    2020-10-15 12:01:24,504 INFO Application dependency setup complete.
+                    2020-10-15 12:01:24,512 INFO SERVERID initialized to 'a073dhyd'
+a073dhyd            2020-10-15 12:01:27,579 INFO Increasing runlevel to 'SHUTDOWN'
+a073dhyd            2020-10-15 12:01:27,624 INFO OSGi temporary directory is C:\Users\151508\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgr-8YG8ra4IpYytybndKa3GyYFBgPiS4xzG91MA02pkemrAAAAAA__
+a073dhyd            2020-10-15 12:01:29,211 INFO Service manager started
+a073dhyd            2020-10-15 12:01:29,235 INFO Reading config file: D:\TrainingApp\modules\configuration\config\config.xml
+a073dhyd            2020-10-15 12:01:29,243 INFO Memory usage: 115.905 MB used (both active and stale objects), 211.093 MB free, 327.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 12:01:29,750 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+a073dhyd            2020-10-15 12:01:29,818 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+a073dhyd            2020-10-15 12:01:39,015 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+a073dhyd            2020-10-15 12:01:40,175 INFO Increasing runlevel to 'NODAEMONS'
+a073dhyd            2020-10-15 12:01:40,178 INFO Reading database config file: D:\TrainingApp\modules\configuration\config\database-config.xml
+a073dhyd            2020-10-15 12:01:40,362 INFO Starting parse security config...
+a073dhyd            2020-10-15 12:01:40,400 INFO SecurityManager finished parsing D:\TrainingApp\modules\configuration\config\security\security-config.xml
+a073dhyd            2020-10-15 12:01:40,451 INFO Finished security config.
+a073dhyd            2020-10-15 12:01:40,513 INFO ENV not specified
+a073dhyd            2020-10-15 12:01:40,513 INFO Starting database TrainingAppDatabase on env null
+a073dhyd            2020-10-15 12:01:40,536 WARN Spatial data types and queries do not work correctly on H2.
+a073dhyd            2020-10-15 12:01:40,886 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+a073dhyd            2020-10-15 12:01:44,339 INFO Validating main database connections have all required properties
+a073dhyd            2020-10-15 12:01:44,347 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+a073dhyd            2020-10-15 12:01:46,327 INFO Checking if existing database version is current...
+a073dhyd            2020-10-15 12:01:46,345 INFO Datamodel version (5, 81, 10, 231) is up to date.
+a073dhyd            2020-10-15 12:01:46,381 INFO Database started
+a073dhyd            2020-10-15 12:01:46,477 INFO GlobalRandomSource#INITIAL_SEED = 1602743506477
+a073dhyd            2020-10-15 12:01:48,759 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+a073dhyd            2020-10-15 12:01:48,759 INFO Parsing D:\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+a073dhyd            2020-10-15 12:01:48,933 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+a073dhyd            2020-10-15 12:01:48,975 WARN The following country codes are configured zones but have not been loaded: [GB]
+a073dhyd            2020-10-15 12:01:49,016 INFO Address config defined for country code US
+a073dhyd            2020-10-15 12:01:49,029 INFO Address config defined for country code CA
+a073dhyd            2020-10-15 12:01:49,044 INFO Address config defined for country code AU
+a073dhyd            2020-10-15 12:01:49,056 INFO Address config defined for country code FR
+a073dhyd            2020-10-15 12:01:49,061 INFO Address config defined for country code DE
+a073dhyd            2020-10-15 12:01:49,066 INFO Address config defined for country code JP
+a073dhyd            2020-10-15 12:01:49,075 INFO Address config defined for country code GB
+a073dhyd            2020-10-15 12:01:49,335 INFO BatchProcessManager starting...
+a073dhyd            2020-10-15 12:01:49,343 INFO BatchProcessManager started
+a073dhyd            2020-10-15 12:01:49,343 INFO DistributedWorkerConfig parsing of D:\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+a073dhyd            2020-10-15 12:01:49,376 INFO ENV not specified
+a073dhyd            2020-10-15 12:01:49,434 INFO Archiving is not enabled
+a073dhyd            2020-10-15 12:01:49,445 INFO Parsing D:\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+a073dhyd            2020-10-15 12:01:54,461 INFO Increasing runlevel to 'DAEMONS'
+a073dhyd            2020-10-15 12:01:54,465 INFO Starting workflow stats writer with interval 60 minutes.
+a073dhyd            2020-10-15 12:01:54,467 INFO Starting DistributedWorkerManager ...
+a073dhyd            2020-10-15 12:01:54,584 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+a073dhyd            2020-10-15 12:01:54,586 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+a073dhyd            2020-10-15 12:01:54,706 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+a073dhyd            2020-10-15 12:01:54,710 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+a073dhyd            2020-10-15 12:01:54,714 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+a073dhyd            2020-10-15 12:01:54,718 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+a073dhyd            2020-10-15 12:01:54,722 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+a073dhyd            2020-10-15 12:01:54,725 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+a073dhyd            2020-10-15 12:01:54,728 INFO Finished DistributedWorkerManager.
+a073dhyd            2020-10-15 12:01:54,729 INFO Starting scheduler ...
+a073dhyd            2020-10-15 12:01:54,818 INFO Parsing schedule file D:\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+a073dhyd            2020-10-15 12:01:54,831 INFO Started scheduler
+a073dhyd            2020-10-15 12:01:54,839 INFO Configuring integration thread pools
+a073dhyd            2020-10-15 12:01:54,898 INFO Configured com.guidewire.execution.ThreadPool-1602743514839-0
+a073dhyd            2020-10-15 12:01:54,934 INFO runtime type Unmanaged (10)
+a073dhyd            2020-10-15 12:01:55,016 INFO init gw_default forkjoin [1e46eea5-0eb0-11eb-8651-cb3bb3476289] (1)
+a073dhyd            2020-10-15 12:01:55,016 INFO Configuring inbound file integrations
+a073dhyd            2020-10-15 12:01:55,017 INFO Configuring inbound JMS integrations
+a073dhyd            2020-10-15 12:01:55,017 INFO Configuring inbound custom integrations
+a073dhyd            2020-10-15 12:01:55,017 INFO Configuring Work Agents
+a073dhyd            2020-10-15 12:01:55,017 INFO Work Agent Configured
+a073dhyd            2020-10-15 12:01:55,017 INFO Starting QPlexor...
+a073dhyd            2020-10-15 12:01:55,932 INFO Starting message destination 21: Message Generator (1 sender threads).
+a073dhyd            2020-10-15 12:01:55,941 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+a073dhyd            2020-10-15 12:01:55,945 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+a073dhyd            2020-10-15 12:01:55,945 INFO MW-startThreadPool-21 poolSize=1
+a073dhyd            2020-10-15 12:01:55,947 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+a073dhyd            2020-10-15 12:01:55,949 INFO MW-startThreadPool-20 poolSize=1
+a073dhyd            2020-10-15 12:01:55,950 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+a073dhyd            2020-10-15 12:01:55,950 INFO MW-startThreadPool-14 poolSize=1
+a073dhyd            2020-10-15 12:01:55,951 INFO MW-startThreadPool-13 poolSize=1
+a073dhyd            2020-10-15 12:01:55,951 INFO MW-startThreadPool-15 poolSize=1
+a073dhyd            2020-10-15 12:01:55,973 INFO QPlexor started
+a073dhyd            2020-10-15 12:01:56,479 INFO Increasing runlevel to 'MULTIUSER'
+a073dhyd            2020-10-15 12:01:56,484 WARN 
+a073dhyd            2020-10-15 12:01:56,484 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+a073dhyd            2020-10-15 12:01:56,484 WARN 
+a073dhyd            2020-10-15 12:01:56,484 INFO ***** ContactManager ready *****
+                    2020-10-15 12:01:56,493 INFO GuidewireSoapApiAxisServlet.init - initialized
+a073dhyd            2020-10-15 12:01:56,539 INFO Started SelectChannelConnector@0.0.0.0:8880
+a073dhyd            2020-10-15 12:16:29,243 INFO Memory usage: 358.417 MB used (both active and stale objects), 138.581 MB free, 497.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 12:31:29,243 INFO Memory usage: 427.588 MB used (both active and stale objects), 69.410 MB free, 497.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 12:46:29,244 INFO Memory usage: 241.067 MB used (both active and stale objects), 284.931 MB free, 526.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 13:01:29,244 INFO Memory usage: 307.594 MB used (both active and stale objects), 218.404 MB free, 526.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 13:01:54,467 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 12:01:54 IST 2020 to Thu Oct 15 13:01:54 IST 2020)
+a073dhyd            2020-10-15 13:16:29,244 INFO Memory usage: 374.253 MB used (both active and stale objects), 151.745 MB free, 526.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 13:31:29,245 INFO Memory usage: 438.971 MB used (both active and stale objects), 87.028 MB free, 526.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 13:46:29,246 INFO Memory usage: 220.484 MB used (both active and stale objects), 285.014 MB free, 505.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 14:01:29,246 INFO Memory usage: 284.666 MB used (both active and stale objects), 220.832 MB free, 505.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 14:01:54,465 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 13:01:54 IST 2020 to Thu Oct 15 14:01:54 IST 2020)
+a073dhyd            2020-10-15 14:16:29,247 INFO Memory usage: 356.398 MB used (both active and stale objects), 149.100 MB free, 505.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 14:31:29,247 INFO Memory usage: 427.583 MB used (both active and stale objects), 77.916 MB free, 505.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 14:46:29,248 INFO Memory usage: 221.506 MB used (both active and stale objects), 284.492 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 15:01:29,249 INFO Memory usage: 289.428 MB used (both active and stale objects), 216.570 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 15:01:54,466 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 14:01:54 IST 2020 to Thu Oct 15 15:01:54 IST 2020)
+a073dhyd            2020-10-15 15:16:29,249 INFO Memory usage: 354.774 MB used (both active and stale objects), 151.224 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 15:34:34,788 INFO Memory usage: 423.497 MB used (both active and stale objects), 82.501 MB free, 506.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 15:49:34,788 INFO Memory usage: 230.307 MB used (both active and stale objects), 252.191 MB free, 482.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 16:01:52,306 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+a073dhyd            2020-10-15 16:01:52,307 INFO The performance analyzer has not been enabled.
+a073dhyd   su       2020-10-15 16:01:55,712 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1iry8z76jojgu1durhf3hg9d9j
+a073dhyd   su       2020-10-15 16:02:53,800 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=xfqndaw60n8718fe57kt0wrjs
+a073dhyd            2020-10-15 16:04:34,788 INFO Memory usage: 367.871 MB used (both active and stale objects), 126.627 MB free, 494.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 16:05:00,005 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 15:01:54 IST 2020 to Thu Oct 15 16:05:00 IST 2020)
+a073dhyd            2020-10-15 16:19:34,789 INFO Memory usage: 205.514 MB used (both active and stale objects), 280.984 MB free, 486.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-10-15 16:30:58,878 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=bciaj9o8s35zcpsqc83usq9j
+a073dhyd            2020-10-15 16:34:34,789 INFO Memory usage: 281.498 MB used (both active and stale objects), 205.000 MB free, 486.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 16:49:34,790 INFO Memory usage: 346.833 MB used (both active and stale objects), 139.665 MB free, 486.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 17:01:54,465 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 16:05:00 IST 2020 to Thu Oct 15 17:01:54 IST 2020)
+a073dhyd            2020-10-15 17:04:34,790 INFO Memory usage: 413.713 MB used (both active and stale objects), 72.785 MB free, 486.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-10-15 17:07:17,756 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=l9oymrv1r9eyuystdfpipp48
+a073dhyd   su       2020-10-15 17:07:55,513 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=39ulqygql6irc3qzt0orz6qt
+a073dhyd   su       2020-10-15 17:08:22,220 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1krvivbazah6nsbnacwgahse9
+a073dhyd            2020-10-15 17:19:34,791 INFO Memory usage: 268.744 MB used (both active and stale objects), 221.754 MB free, 490.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 17:34:34,792 INFO Memory usage: 335.182 MB used (both active and stale objects), 155.316 MB free, 490.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 17:49:34,792 INFO Memory usage: 398.818 MB used (both active and stale objects), 91.680 MB free, 490.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 18:13:29,054 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 17:01:54 IST 2020 to Thu Oct 15 18:13:29 IST 2020)
+a073dhyd            2020-10-15 18:16:09,381 INFO Memory usage: 246.371 MB used (both active and stale objects), 221.127 MB free, 467.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 18:31:09,381 INFO Memory usage: 313.246 MB used (both active and stale objects), 154.252 MB free, 467.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 20:05:27,486 INFO Memory usage: 386.944 MB used (both active and stale objects), 80.554 MB free, 467.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 20:20:27,487 INFO Memory usage: 236.156 MB used (both active and stale objects), 248.842 MB free, 485.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 20:21:12,569 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 18:13:29 IST 2020 to Thu Oct 15 20:21:12 IST 2020)
+a073dhyd            2020-10-15 20:21:12,569 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 20:21:12 IST 2020 to Thu Oct 15 20:21:12 IST 2020)
+a073dhyd            2020-10-15 20:35:27,487 INFO Memory usage: 301.786 MB used (both active and stale objects), 183.213 MB free, 485.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 21:05:46,524 INFO Memory usage: 373.210 MB used (both active and stale objects), 111.788 MB free, 485.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 21:17:13,502 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 20:21:12 IST 2020 to Thu Oct 15 21:17:13 IST 2020)
+a073dhyd            2020-10-15 21:20:46,525 INFO Memory usage: 230.479 MB used (both active and stale objects), 219.519 MB free, 450.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 21:35:46,525 INFO Memory usage: 296.476 MB used (both active and stale objects), 153.522 MB free, 450.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 21:50:46,525 INFO Memory usage: 362.558 MB used (both active and stale objects), 87.440 MB free, 450.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-10-15 21:53:21,532 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1c83w7nxn9r47ft5ehwqp6dsy
+a073dhyd            2020-10-15 22:01:54,466 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 21:17:13 IST 2020 to Thu Oct 15 22:01:54 IST 2020)
+a073dhyd            2020-10-15 22:05:46,526 INFO Memory usage: 241.941 MB used (both active and stale objects), 230.057 MB free, 472.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 22:20:46,526 INFO Memory usage: 305.249 MB used (both active and stale objects), 166.750 MB free, 472.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-10-15 22:29:54,883 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=3gm9tgmgrisz1m3z5c7onh0px
+a073dhyd            2020-10-15 22:35:46,527 INFO Memory usage: 189.845 MB used (both active and stale objects), 244.653 MB free, 434.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-10-15 22:48:26,723 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=npu0k5einca911etbcku4h0j8
+a073dhyd            2020-10-15 22:50:46,527 INFO Memory usage: 267.326 MB used (both active and stale objects), 167.172 MB free, 434.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 23:01:54,466 INFO Workflow stats writer wrote 0 rows (from Thu Oct 15 22:01:54 IST 2020 to Thu Oct 15 23:01:54 IST 2020)
+a073dhyd            2020-10-15 23:05:46,528 INFO Memory usage: 331.688 MB used (both active and stale objects), 102.810 MB free, 434.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-10-15 23:15:00,896 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=wfxxjdzz00s0f92wkif1whyu
+a073dhyd   su       2020-10-15 23:15:55,761 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=zkajzhu9kqogh37bmgog5lre
+a073dhyd            2020-10-15 23:20:46,529 INFO Memory usage: 230.271 MB used (both active and stale objects), 224.727 MB free, 455.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-10-15 23:35:46,530 INFO Memory usage: 295.716 MB used (both active and stale objects), 159.282 MB free, 455.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-10-15 23:36:17,288 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=nnbrlmgb4c1v16uscy6lui2a5
+a073dhyd   su       2020-10-15 23:45:56,446 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=1mau6uwgg5dnubssj5es51thv
+a073dhyd            2020-10-15 23:46:40,558 INFO Login attempt failed for user 'susu' from 0:0:0:0:0:0:0:1 session=1k5j6uv1ynwth1xr9s27yf4fyj: FailedLoginException
+a073dhyd   su       2020-10-15 23:48:11,134 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=7y9xsj44ep7tfcak1nebtdtf
+a073dhyd            2020-10-15 23:48:21,824 INFO Login attempt failed for user 'test' from 0:0:0:0:0:0:0:1 session=15k730opo9onij0y4wmayvc8z: FailedLoginException
+a073dhyd            2020-10-15 23:48:32,330 INFO Login attempt failed for user 'gw' from 0:0:0:0:0:0:0:1 session=jks840sj7zb01fyzm8ev3pscd: FailedLoginException
+a073dhyd            2020-10-15 23:48:59,713 INFO Login attempt failed for user 'susususu' from 0:0:0:0:0:0:0:1 session=x1mxlx4tyqnuvari57brkcms: FailedLoginException
+a073dhyd            2020-10-15 23:50:46,530 INFO Memory usage: 212.489 MB used (both active and stale objects), 193.509 MB free, 406.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

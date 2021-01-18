@@ -1,0 +1,101 @@
+                    2020-09-14 22:16:30,954 INFO Root directory is "D:\TrainingApp\webapps\ab"
+                    2020-09-14 22:16:30,967 INFO Temp directory is "C:\Users\151508\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp"
+                    2020-09-14 22:16:30,967 INFO Logging properties found at "D:\TrainingApp\modules\configuration\config\logging\logging.properties"
+                    2020-09-14 22:16:31,130 INFO GuidewireSoapApiAxisServlet.init - start
+                    2020-09-14 22:16:31,281 INFO Increasing runlevel to 'GUIDEWIRE_STARTUP'
+                    2020-09-14 22:16:31,363 INFO Setup platform dependencies ...
+                    2020-09-14 22:16:31,466 INFO Reading config file: D:\TrainingApp\modules\configuration\config\config.xml
+                    2020-09-14 22:16:31,581 INFO Platform dependency setup complete.
+                    2020-09-14 22:16:31,581 INFO Setup application dependencies ...
+                    2020-09-14 22:16:31,644 INFO CustomizableSystemClock initialized, current time is now: 1600101991642, Mon Sep 14 22:16:31 IST 2020
+                    2020-09-14 22:16:31,644 INFO Application dependency setup complete.
+                    2020-09-14 22:16:31,647 INFO SERVERID initialized to 'a073dhyd'
+a073dhyd            2020-09-14 22:16:33,098 INFO Increasing runlevel to 'SHUTDOWN'
+a073dhyd            2020-09-14 22:16:33,118 INFO OSGi temporary directory is C:\Users\151508\AppData\Local\Temp\Jetty_0_0_0_0_8880_ab__ab__.vkusdp\osgi_ab_wKgr-0D7XWxamAAxcitVGThF9s_E75CFKGOGLBgS8i2l3-fMAAAAAA__
+a073dhyd            2020-09-14 22:16:34,145 INFO Service manager started
+a073dhyd            2020-09-14 22:16:34,149 INFO Reading config file: D:\TrainingApp\modules\configuration\config\config.xml
+a073dhyd            2020-09-14 22:16:34,156 INFO Memory usage: 218.676 MB used (both active and stale objects), 86.822 MB free, 305.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd            2020-09-14 22:16:34,334 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+a073dhyd            2020-09-14 22:16:34,383 WARN Display key found with different argument lists across locales: Web.Address.AutoFill.AddressField.InvalidFormat
+a073dhyd            2020-09-14 22:16:39,286 INFO ***** TrainingApp 8.0.2.18 (Platform 8.22.0.18) starting *****
+a073dhyd            2020-09-14 22:16:39,911 INFO Increasing runlevel to 'NODAEMONS'
+a073dhyd            2020-09-14 22:16:39,917 INFO Reading database config file: D:\TrainingApp\modules\configuration\config\database-config.xml
+a073dhyd            2020-09-14 22:16:39,978 INFO Starting parse security config...
+a073dhyd            2020-09-14 22:16:39,989 INFO SecurityManager finished parsing D:\TrainingApp\modules\configuration\config\security\security-config.xml
+a073dhyd            2020-09-14 22:16:40,006 INFO Finished security config.
+a073dhyd            2020-09-14 22:16:40,031 INFO ENV not specified
+a073dhyd            2020-09-14 22:16:40,031 INFO Starting database TrainingAppDatabase on env null
+a073dhyd            2020-09-14 22:16:40,042 WARN Spatial data types and queries do not work correctly on H2.
+a073dhyd            2020-09-14 22:16:40,157 INFO JDBC Driver: org.h2.Driver, major version: 1, minor version: 2
+a073dhyd            2020-09-14 22:16:43,218 INFO Validating main database connections have all required properties
+a073dhyd            2020-09-14 22:16:43,224 INFO This database version is SUPPORTED. Earliest supported database version is (1.2.147).  Actual database version is (1.2.147)
+a073dhyd            2020-09-14 22:16:43,842 INFO Checking if existing database version is current...
+a073dhyd            2020-09-14 22:16:43,853 INFO Datamodel version (5, 81, 10, 231) is up to date.
+a073dhyd            2020-09-14 22:16:43,875 INFO Database started
+a073dhyd            2020-09-14 22:16:43,902 INFO GlobalRandomSource#INITIAL_SEED = 1600102003902
+a073dhyd            2020-09-14 22:16:46,108 WARN An ITestingClock plugin is enabled. This plugin should be enabled for testing only, and should never be used in a production environment.
+a073dhyd            2020-09-14 22:16:46,109 INFO Parsing D:\TrainingApp\modules\configuration\config\messaging\messaging-config.xml
+a073dhyd            2020-09-14 22:16:46,206 INFO Zone config defined for countries [AU, CA, DE, FR, GB, JP, US]
+a073dhyd            2020-09-14 22:16:46,209 WARN The following country codes are configured zones but have not been loaded: [AU, CA, DE, FR, GB, JP, US]
+a073dhyd            2020-09-14 22:16:46,221 INFO Address config defined for country code US
+a073dhyd            2020-09-14 22:16:46,224 INFO Address config defined for country code CA
+a073dhyd            2020-09-14 22:16:46,227 INFO Address config defined for country code AU
+a073dhyd            2020-09-14 22:16:46,231 INFO Address config defined for country code FR
+a073dhyd            2020-09-14 22:16:46,233 INFO Address config defined for country code DE
+a073dhyd            2020-09-14 22:16:46,237 INFO Address config defined for country code JP
+a073dhyd            2020-09-14 22:16:46,243 INFO Address config defined for country code GB
+a073dhyd            2020-09-14 22:16:46,388 INFO BatchProcessManager starting...
+a073dhyd            2020-09-14 22:16:46,391 INFO BatchProcessManager started
+a073dhyd            2020-09-14 22:16:46,391 INFO DistributedWorkerConfig parsing of D:\TrainingApp\modules\configuration\config\workqueue\work-queue.xml
+a073dhyd            2020-09-14 22:16:46,402 INFO ENV not specified
+a073dhyd            2020-09-14 22:16:46,418 INFO Archiving is not enabled
+a073dhyd            2020-09-14 22:16:46,420 INFO Parsing D:\TrainingApp\modules\configuration\config\integration\inbound-integration-config.xml
+a073dhyd            2020-09-14 22:16:49,350 INFO Increasing runlevel to 'DAEMONS'
+a073dhyd            2020-09-14 22:16:49,352 INFO Starting workflow stats writer with interval 60 minutes.
+a073dhyd            2020-09-14 22:16:49,353 INFO Starting DistributedWorkerManager ...
+a073dhyd            2020-09-14 22:16:49,434 INFO DistributedWorkerManager thread pool configuration: minPoolSize=0, maxPoolSize=50, keepAliveTimeout=60 (seconds)
+a073dhyd            2020-09-14 22:16:49,436 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABGeocode
+a073dhyd            2020-09-14 22:16:49,497 INFO DWM: Starting executor (1 workers at maximum) for work queue: ABContactScoring
+a073dhyd            2020-09-14 22:16:49,501 INFO DWM: Starting executor (4 workers at maximum) for work queue: DuplicateContacts
+a073dhyd            2020-09-14 22:16:49,504 INFO DWM: Starting executor (1 workers at maximum) for work queue: VerifyMinimumCriteria
+a073dhyd            2020-09-14 22:16:49,508 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBConsistencyCheck
+a073dhyd            2020-09-14 22:16:49,511 INFO DWM: Starting executor (1 workers at maximum) for work queue: DBStats
+a073dhyd            2020-09-14 22:16:49,515 INFO DWM: Starting executor (16 workers at maximum) for work queue: PhoneNumberNormalizer
+a073dhyd            2020-09-14 22:16:49,519 INFO Finished DistributedWorkerManager.
+a073dhyd            2020-09-14 22:16:49,520 INFO Starting scheduler ...
+a073dhyd            2020-09-14 22:16:49,607 INFO Parsing schedule file D:\TrainingApp\modules\configuration\config\scheduler\scheduler-config.xml
+a073dhyd            2020-09-14 22:16:49,609 INFO Started scheduler
+a073dhyd            2020-09-14 22:16:49,613 INFO Configuring integration thread pools
+a073dhyd            2020-09-14 22:16:49,653 INFO Configured com.guidewire.execution.ThreadPool-1600102009613-0
+a073dhyd            2020-09-14 22:16:49,663 INFO runtime type Unmanaged (10)
+a073dhyd            2020-09-14 22:16:49,690 INFO init gw_default forkjoin [e26c5dc0-f6a9-11ea-9342-d74de6ee4a62] (1)
+a073dhyd            2020-09-14 22:16:49,690 INFO Configuring inbound file integrations
+a073dhyd            2020-09-14 22:16:49,690 INFO Configuring inbound JMS integrations
+a073dhyd            2020-09-14 22:16:49,690 INFO Configuring inbound custom integrations
+a073dhyd            2020-09-14 22:16:49,690 INFO Configuring Work Agents
+a073dhyd            2020-09-14 22:16:49,690 INFO Work Agent Configured
+a073dhyd            2020-09-14 22:16:49,691 INFO Starting QPlexor...
+a073dhyd            2020-09-14 22:16:50,182 INFO Starting message destination 21: Message Generator (1 sender threads).
+a073dhyd            2020-09-14 22:16:50,184 INFO MW-startThreadPool-21 poolSize=1
+a073dhyd            2020-09-14 22:16:50,185 INFO Starting message destination 20: Safe Ordering Demo (1 sender threads).
+a073dhyd            2020-09-14 22:16:50,186 INFO Starting message destination 13: Bank Account Verification (1 sender threads).
+a073dhyd            2020-09-14 22:16:50,187 INFO Starting message destination 14: Vendor Recommendation (1 sender threads).
+a073dhyd            2020-09-14 22:16:50,188 INFO Starting message destination 15: Legal Case Report (1 sender threads).
+a073dhyd            2020-09-14 22:16:50,189 INFO MW-startThreadPool-13 poolSize=1
+a073dhyd            2020-09-14 22:16:50,190 INFO MW-startThreadPool-14 poolSize=1
+a073dhyd            2020-09-14 22:16:50,190 INFO MW-startThreadPool-15 poolSize=1
+a073dhyd            2020-09-14 22:16:50,190 INFO MW-startThreadPool-20 poolSize=1
+a073dhyd            2020-09-14 22:16:50,195 INFO QPlexor started
+a073dhyd            2020-09-14 22:16:50,430 INFO Increasing runlevel to 'MULTIUSER'
+a073dhyd            2020-09-14 22:16:50,435 WARN 
+a073dhyd            2020-09-14 22:16:50,435 WARN !!! The server is in "development" mode. This mode should never be used for a production server.
+a073dhyd            2020-09-14 22:16:50,435 WARN 
+a073dhyd            2020-09-14 22:16:50,435 INFO ***** ContactManager ready *****
+                    2020-09-14 22:16:50,435 INFO GuidewireSoapApiAxisServlet.init - initialized
+a073dhyd            2020-09-14 22:16:50,472 INFO Started SelectChannelConnector@0.0.0.0:8880
+a073dhyd            2020-09-14 22:17:14,286 INFO The performance analyzer property [perf.analyzer] has not been declared.  The acceptable values are "true" or "false".
+a073dhyd            2020-09-14 22:17:14,286 INFO The performance analyzer has not been enabled.
+a073dhyd            2020-09-14 22:31:34,156 INFO Memory usage: 386.033 MB used (both active and stale objects), 28.465 MB free, 414.500 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.
+a073dhyd   su       2020-09-14 22:44:09,141 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=14g5t1m5btg1t1cs8cd98v4it2
+a073dhyd   su       2020-09-14 22:46:12,891 INFO Login user=3 'su' from 0:0:0:0:0:0:0:1 session=eoq3iq58nt801s5oyamfhz0ma
+a073dhyd            2020-09-14 22:46:34,157 INFO Memory usage: 320.983 MB used (both active and stale objects), 123.015 MB free, 444.000 MB total, 3641.000 MB max. --  Please read 'Memory usage logging' in the System Administration Guide for information on how to interpret these numbers.

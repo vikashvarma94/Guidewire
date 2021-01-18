@@ -88,6 +88,9 @@ public class baseclass {
 		test.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 	}
 	else {log.info("***** Test Method Passed ******");}
+		String temp=Utility.getScreenshot(driver);	
+		test.pass("pass", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+
 	
 	driver.close();
 	log.info("***** Browser Closed ******");

@@ -6,7 +6,7 @@
       <class name="GW.Guidewire.Testcases.Tc1_Login">
         <methods>
           <include name="suite"/>
-          <include name="login_test" invocation-numbers="1 2"/>
+          <include name="login_test" invocation-numbers="0"/>
           <include name="endtest"/>
           <include name="setup"/>
         </methods>
